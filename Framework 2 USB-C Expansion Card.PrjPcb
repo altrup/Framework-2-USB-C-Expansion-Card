@@ -204,7 +204,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LQADQGWC
 
 [Document10]
-DocumentPath=templates\ANSI B Landscape.SchDot
+DocumentPath=templates\ANSI B Landscape Git.SchDot
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
