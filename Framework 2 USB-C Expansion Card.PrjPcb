@@ -220,6 +220,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SEWNJQIE
 
+[Document11]
+DocumentPath=System_Architecture.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RIBTISRU
+
 [Parameter1]
 Name=CAGE_CODE
 Value=?????
@@ -1456,6 +1473,14 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=CC|NetColor=clBlack
+Net2=NetName=DP|NetColor=clBlack
+Net3=NetName=I2C|NetColor=clBlack
+Net4=NetName=TX/RX/DP/DM|NetColor=clBlack
+Net5=NetName=USB|NetColor=clBlack
+Net6=NetName=USB 2.0/3.0|NetColor=$008E8145
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
