@@ -170,23 +170,6 @@ GenerateClassCluster=0
 DocumentUniqueId=WCCAYWQU
 
 [Document8]
-DocumentPath=Other.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SNVWLBHE
-
-[Document9]
 DocumentPath=Upstream.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LQADQGWC
 
-[Document10]
+[Document9]
 DocumentPath=templates\ANSI B Landscape Git.SchDot
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,14 +203,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SEWNJQIE
 
-[Document11]
+[Document10]
 DocumentPath=System_Architecture.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -1363,20 +1346,20 @@ ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Schlib1.SchLib
-ComponentDesignItemID3=PI3USB31532Q2ZLCEX
-ComponentSymbolReference3=PI3USB31532Q2ZLCEX
+ComponentDesignItemID3=TMUXHS4446RETR
+ComponentSymbolReference3=TMUXHS4446RETR
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=Schlib1.SchLib
-ComponentDesignItemID4=UPD350CT-I/Q8X
-ComponentSymbolReference4=UPD350CT-I/Q8X
+ComponentDesignItemID4=TPS65987DDKRSHR
+ComponentSymbolReference4=TPS65987DDKRSHR
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Schlib1.SchLib
-ComponentDesignItemID5=USB4056-03-A
-ComponentSymbolReference5=USB4056-03-A
+ComponentDesignItemID5=UMK105BJ224KV-F
+ComponentSymbolReference5=UMK105BJ224KV-F
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
@@ -1385,12 +1368,6 @@ ComponentDesignItemID6=USB4155-03-C
 ComponentSymbolReference6=USB4155-03-C
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=Schlib1.SchLib
-ComponentDesignItemID7=USB7050PT-I/KDX
-ComponentSymbolReference7=USB7050PT-I/KDX
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1447,26 +1424,17 @@ ParameterUpdate19=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=100-VQFN (12x12)
+ModelName0=56-VQFN (7x7)
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=28-QFN (4x4)
+ModelName1=CAP0402
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=40-TQFN (3x6)
+ModelName2=RES0402
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=CAP0402
+ModelName3=USB4155-03-C
 ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=RES0402
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=USB4056-03-A
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=USB4155-03-C
-ModelUpdate6=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
