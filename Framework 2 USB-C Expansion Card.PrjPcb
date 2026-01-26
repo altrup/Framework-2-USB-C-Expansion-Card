@@ -1524,12 +1524,14 @@ PartTypes=0
 [NetInfos]
 Net1=NetName=CC|NetColor=clBlack
 Net2=NetName=DP|NetColor=clBlack
-Net3=NetName=I2C|NetColor=clBlack
-Net4=NetName=LDO_3V3|NetColor=clBlack
-Net5=NetName=TX/RX/DP/DM|NetColor=clBlack
-Net6=NetName=USB|NetColor=clBlack
-Net7=NetName=USB 2.0/3.0|NetColor=$008E8145
-Net8=NetName=VBUS|NetColor=clBlack
+Net3=NetName=GND|NetColor=clBlack
+Net4=NetName=I2C|NetColor=clBlack
+Net5=NetName=LDO_3V3|NetColor=clBlack
+Net6=NetName=NetC16_2|NetColor=clBlack
+Net7=NetName=TX/RX/DP/DM|NetColor=clBlack
+Net8=NetName=USB|NetColor=clBlack
+Net9=NetName=USB 2.0/3.0|NetColor=$008E8145
+Net10=NetName=VBUS|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
