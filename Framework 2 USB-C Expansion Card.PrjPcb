@@ -45,6 +45,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Default
 
 [Preferences]
 PrefsVaultGUID=
@@ -187,23 +188,6 @@ GenerateClassCluster=0
 DocumentUniqueId=LQADQGWC
 
 [Document9]
-DocumentPath=templates\ANSI B Landscape Git.SchDot
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SEWNJQIE
-
-[Document10]
 DocumentPath=Upstream.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,14 +204,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -236,6 +220,24 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMAMQKOD
+
+[ProjectVariant1]
+UniqueId=11540c39-c20c-41b1-9f06-05934a3095d6
+Description=Default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R9|UniqueId=\BIOPXCWO\USYMLBLD|Kind=1|AlternatePart=
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueId=5cdc0571-5cb7-474b-a3f5-a113653ab853
+Description=Flash Disabled
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R7|UniqueId=\BIOPXCWO\FHNWZWIW|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [Parameter1]
 Name=CAGE_CODE
@@ -1378,52 +1380,70 @@ ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=Schlib1.SchLib
-ComponentDesignItemID4=ERJ-2RKF1003X
-ComponentSymbolReference4=ERJ-2RKF1003X
+ComponentDesignItemID4=ERA-2AEB332X
+ComponentSymbolReference4=ERA-2AEB332X
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Schlib1.SchLib
-ComponentDesignItemID5=GRM1555C1H221JA01D
-ComponentSymbolReference5=GRM1555C1H221JA01D
+ComponentDesignItemID5=ERJ-2RKF1003X
+ComponentSymbolReference5=ERJ-2RKF1003X
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=Schlib1.SchLib
-ComponentDesignItemID6=RC0402FR-072M2L
-ComponentSymbolReference6=RC0402FR-072M2L
+ComponentDesignItemID6=GRM1555C1H221JA01D
+ComponentSymbolReference6=GRM1555C1H221JA01D
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Schlib1.SchLib
-ComponentDesignItemID7=TMUXHS4446RETR
-ComponentSymbolReference7=TMUXHS4446RETR
+ComponentDesignItemID7=RC0402FR-072M2L
+ComponentSymbolReference7=RC0402FR-072M2L
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Schlib1.SchLib
-ComponentDesignItemID8=TPD6S300ARUKR
-ComponentSymbolReference8=TPD6S300ARUKR
+ComponentDesignItemID8=RC0402JR-070RL
+ComponentSymbolReference8=RC0402JR-070RL
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Schlib1.SchLib
-ComponentDesignItemID9=TPS65987DDHRSHR
-ComponentSymbolReference9=TPS65987DDHRSHR
+ComponentDesignItemID9=TMUXHS4446RETR
+ComponentSymbolReference9=TMUXHS4446RETR
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Schlib1.SchLib
-ComponentDesignItemID10=UMK105BJ224KV-F
-ComponentSymbolReference10=UMK105BJ224KV-F
+ComponentDesignItemID10=TPD6S300ARUKR
+ComponentSymbolReference10=TPD6S300ARUKR
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Schlib1.SchLib
-ComponentDesignItemID11=USB4155-03-C
-ComponentSymbolReference11=USB4155-03-C
+ComponentDesignItemID11=TPS65987DDHRSHR
+ComponentSymbolReference11=TPS65987DDHRSHR
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Schlib1.SchLib
+ComponentDesignItemID12=UMK105BJ224KV-F
+ComponentSymbolReference12=UMK105BJ224KV-F
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=Schlib1.SchLib
+ComponentDesignItemID13=USB4155-03-C
+ComponentSymbolReference13=USB4155-03-C
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=Schlib1.SchLib
+ComponentDesignItemID14=W25Q80DVUXIE TR
+ComponentSymbolReference14=W25Q80DVUXIE TR
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1502,9 +1522,11 @@ PartTypes=0
 Net1=NetName=CC|NetColor=clBlack
 Net2=NetName=DP|NetColor=clBlack
 Net3=NetName=I2C|NetColor=clBlack
-Net4=NetName=TX/RX/DP/DM|NetColor=clBlack
-Net5=NetName=USB|NetColor=clBlack
-Net6=NetName=USB 2.0/3.0|NetColor=$008E8145
+Net4=NetName=LDO_3V3|NetColor=clBlack
+Net5=NetName=TX/RX/DP/DM|NetColor=clBlack
+Net6=NetName=USB|NetColor=clBlack
+Net7=NetName=USB 2.0/3.0|NetColor=$008E8145
+Net8=NetName=VBUS|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
