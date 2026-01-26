@@ -235,9 +235,12 @@ UniqueId=5cdc0571-5cb7-474b-a3f5-a113653ab853
 Description=Flash Disabled
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=2
 Variation1=Designator=R7|UniqueId=\BIOPXCWO\FHNWZWIW|Kind=1|AlternatePart=
-ParamVariationCount=0
+Variation2=Designator=R9|UniqueId=\BIOPXCWO\USYMLBLD|Kind=0|AlternatePart=
+ParamVariation1=ParameterName=Comment|VariantValue=
+ParamDesignator1=R9
+ParamVariationCount=1
 
 [Parameter1]
 Name=CAGE_CODE
