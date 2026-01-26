@@ -171,7 +171,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WCCAYWQU
 
 [Document8]
-DocumentPath=Downstream.SchDoc
+DocumentPath=Port_Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -188,7 +188,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LQADQGWC
 
 [Document9]
-DocumentPath=Downstream.Harness
+DocumentPath=Port_Controller.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -220,6 +220,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMAMQKOD
+
+[Document11]
+DocumentPath=Downstream_Port.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VSTOJXUH
 
 [ProjectVariant1]
 UniqueId=11540c39-c20c-41b1-9f06-05934a3095d6
@@ -1443,8 +1460,8 @@ ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=Schlib1.SchLib
-ComponentDesignItemID14=USB4155-03-C
-ComponentSymbolReference14=USB4155-03-C
+ComponentDesignItemID14=USB4056-03-A
+ComponentSymbolReference14=USB4056-03-A
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
@@ -1518,7 +1535,7 @@ ModelType2=PCBLIB
 ModelName2=RES0402
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=USB4155-03-C
+ModelName3=USB4056-03-A
 ModelUpdate3=1
 
 [DatabaseUpdateOptions]
