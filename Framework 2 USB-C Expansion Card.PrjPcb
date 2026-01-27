@@ -312,9 +312,9 @@ Description=Default
 AllowFabrication=0
 ParameterCount=0
 VariationCount=3
-Variation1=Designator=R9_1|UniqueId=\XMEADGZJ\PVDQUZPO\USYMLBLD|Kind=1|AlternatePart=
-Variation2=Designator=R9_2|UniqueId=\BIOPXCWO\PVDQUZPO\USYMLBLD|Kind=1|AlternatePart=
-Variation3=Designator=R9_3|UniqueId=\QFPHLWNG\DREOTURG\USYMLBLD|Kind=1|AlternatePart=
+Variation1=Designator=R9_1|UniqueId=\BIOPXCWO\PVDQUZPO\USYMLBLD|Kind=1|AlternatePart=
+Variation2=Designator=R9_3|UniqueId=\QFPHLWNG\IKVJNKQI\USYMLBLD|Kind=1|AlternatePart=
+Variation3=Designator=R9_2|UniqueId=\JDVWEMCX\PVDQUZPO\USYMLBLD|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -323,90 +323,90 @@ Description=Flash Disabled
 AllowFabrication=0
 ParameterCount=0
 VariationCount=3
-Variation1=Designator=R7_1|UniqueId=\XMEADGZJ\PVDQUZPO\FHNWZWIW|Kind=1|AlternatePart=
-Variation2=Designator=R7_2|UniqueId=\BIOPXCWO\PVDQUZPO\FHNWZWIW|Kind=1|AlternatePart=
-Variation3=Designator=R7_3|UniqueId=\QFPHLWNG\DREOTURG\FHNWZWIW|Kind=1|AlternatePart=
+Variation1=Designator=R7_1|UniqueId=\BIOPXCWO\PVDQUZPO\FHNWZWIW|Kind=1|AlternatePart=
+Variation2=Designator=R7_3|UniqueId=\QFPHLWNG\IKVJNKQI\FHNWZWIW|Kind=1|AlternatePart=
+Variation3=Designator=R7_2|UniqueId=\JDVWEMCX\PVDQUZPO\FHNWZWIW|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=SCH_REV
-Value=A
+Name=CAGE_CODE
+Value=?????
 
 [Parameter2]
-Name=PCB_REV
-Value=A
-
-[Parameter3]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
-
-[Parameter4]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
-
-[Parameter5]
-Name=PCB_ENGINEER
-Value=- -----
-
-[Parameter6]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
-
-[Parameter7]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
-
-[Parameter8]
-Name=PCB_DESIGNER
-Value=- -----
-
-[Parameter9]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
-
-[Parameter10]
-Name=PCB_CHECKER
-Value=- -----
-
-[Parameter11]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
-
-[Parameter12]
-Name=PCB_ANG_TOL
-Value=+/-1/2
-
-[Parameter13]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
-
-[Parameter14]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
-
-[Parameter15]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
-
-[Parameter16]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
-
-[Parameter17]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
-
-[Parameter18]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
-
-[Parameter19]
 Name=CONTRACT_NUMBER
 Value=<CONTRACT NO>
 
+[Parameter3]
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
+
+[Parameter4]
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
+
+[Parameter5]
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
+
+[Parameter6]
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
+
+[Parameter7]
+Name=PCB_2_DEC_TOL
+Value=+/-.01
+
+[Parameter8]
+Name=PCB_3_DEC_TOL
+Value=+/-.010
+
+[Parameter9]
+Name=PCB_ANG_TOL
+Value=+/-1/2
+
+[Parameter10]
+Name=PCB_ASSEMBLY_NO
+Value=<PCB ASSY NO>
+
+[Parameter11]
+Name=PCB_CHECKER
+Value=- -----
+
+[Parameter12]
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
+
+[Parameter13]
+Name=PCB_DESIGNER
+Value=- -----
+
+[Parameter14]
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
+
+[Parameter15]
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
+
+[Parameter16]
+Name=PCB_ENGINEER
+Value=- -----
+
+[Parameter17]
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
+
+[Parameter18]
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
+
+[Parameter19]
+Name=PCB_REV
+Value=A
+
 [Parameter20]
-Name=CAGE_CODE
-Value=?????
+Name=SCH_REV
+Value=A
 
 [Configuration1]
 Name=Default Configuration
@@ -1467,43 +1467,43 @@ MatchStrictly2=1
 PhysicalNamingFormat=$Component_$ChannelIndex
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\XMEADGZJ
+UniqueIDPath0=\BIOPXCWO
 DocumentName0=Downstream_Port.SchDoc
-IsEnabled0=0
+IsEnabled0=1
 SelectionScope0=All
-Order0=1
+Order0=2
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\BIOPXCWO
+UniqueIDPath1=\JDVWEMCX
 DocumentName1=Downstream_Port.SchDoc
-IsEnabled1=0
+IsEnabled1=1
 SelectionScope1=All
-Order1=2
+Order1=8
 IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\XMEADGZJ\PVDQUZPO
+UniqueIDPath2=\BIOPXCWO\PVDQUZPO
 DocumentName2=Port_Controller.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=3
+Order2=4
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\BIOPXCWO\PVDQUZPO
+UniqueIDPath3=\JDVWEMCX\PVDQUZPO
 DocumentName3=Port_Controller.SchDoc
-IsEnabled3=0
+IsEnabled3=1
 SelectionScope3=All
-Order3=4
+Order3=9
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=\QFPHLWNG\DREOTURG
+UniqueIDPath4=\QFPHLWNG\IKVJNKQI
 DocumentName4=Port_Controller.SchDoc
-IsEnabled4=0
+IsEnabled4=1
 SelectionScope4=All
-Order4=5
+Order4=10
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
@@ -1517,7 +1517,7 @@ IndexStartValue5=1
 Suffix5=
 UniqueIDPath6=\QFPHLWNG
 DocumentName6=Upstream_Port.SchDoc
-IsEnabled6=0
+IsEnabled6=1
 SelectionScope6=All
 Order6=7
 IndexEnabled6=0
@@ -1630,10 +1630,16 @@ ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Schlib1.SchLib
-ComponentDesignItemID15=W25Q80DVUXIE TR
-ComponentSymbolReference15=W25Q80DVUXIE TR
+ComponentDesignItemID15=USB4155-03-C
+ComponentSymbolReference15=USB4155-03-C
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Schlib1.SchLib
+ComponentDesignItemID16=W25Q80DVUXIE TR
+ComponentSymbolReference16=W25Q80DVUXIE TR
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1701,6 +1707,9 @@ ModelUpdate2=1
 ModelType3=PCBLIB
 ModelName3=USB4056-03-A
 ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=USB4155-03-C
+ModelUpdate4=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
