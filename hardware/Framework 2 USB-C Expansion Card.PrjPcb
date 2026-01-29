@@ -345,10 +345,8 @@ UniqueId=11540c39-c20c-41b1-9f06-05934a3095d6
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
-Variation1=Designator=R9_1|UniqueId=\BIOPXCWO\PVDQUZPO\USYMLBLD|Kind=1|AlternatePart=
-Variation2=Designator=R9_3|UniqueId=\QFPHLWNG\IKVJNKQI\USYMLBLD|Kind=1|AlternatePart=
-Variation3=Designator=R9_2|UniqueId=\JDVWEMCX\PVDQUZPO\USYMLBLD|Kind=1|AlternatePart=
+VariationCount=1
+Variation1=Designator=R9_3|UniqueId=\QFPHLWNG\IKVJNKQI\USYMLBLD|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -356,10 +354,8 @@ UniqueId=5cdc0571-5cb7-474b-a3f5-a113653ab853
 Description=Flash Disabled
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
-Variation1=Designator=R7_1|UniqueId=\BIOPXCWO\PVDQUZPO\FHNWZWIW|Kind=1|AlternatePart=
-Variation2=Designator=R7_3|UniqueId=\QFPHLWNG\IKVJNKQI\FHNWZWIW|Kind=1|AlternatePart=
-Variation3=Designator=R7_2|UniqueId=\JDVWEMCX\PVDQUZPO\FHNWZWIW|Kind=1|AlternatePart=
+VariationCount=1
+Variation1=Designator=R7_3|UniqueId=\QFPHLWNG\IKVJNKQI\FHNWZWIW|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
