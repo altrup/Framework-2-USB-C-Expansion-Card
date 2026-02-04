@@ -57,6 +57,15 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define I2C_INT1_Pin GPIO_PIN_3
+#define I2C_INT1_GPIO_Port GPIOB
+#define I2C_INT1_EXTI_IRQn EXTI2_3_IRQn
+#define I2C_INT2_Pin GPIO_PIN_4
+#define I2C_INT2_GPIO_Port GPIOB
+#define I2C_INT2_EXTI_IRQn EXTI4_15_IRQn
+#define I2C_INT3_Pin GPIO_PIN_5
+#define I2C_INT3_GPIO_Port GPIOB
+#define I2C_INT3_EXTI_IRQn EXTI4_15_IRQn
 
 /* USER CODE BEGIN Private defines */
 
