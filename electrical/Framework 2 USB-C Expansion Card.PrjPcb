@@ -1672,8 +1672,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Schlib1.SchLib
-ComponentDesignItemID0=TMUXHS4512IRETT
-ComponentSymbolReference0=TMUXHS4512IRETT
+ComponentDesignItemID0=STM32F042G6U6TR
+ComponentSymbolReference0=STM32F042G6U6TR
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1693,22 +1693,27 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Datasheet
+ParameterName2=Copyright
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Datasheet
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Manufacturer
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=Manufacturer Product Number
+ParameterName6=Manufacturer_Name
 ParameterUpdate6=1
-ParameterName7=Operating Temperature
+ParameterName7=Manufacturer_Part_Number
 ParameterUpdate7=1
-ParameterName8=Supplier
+ParameterName8=RefDes
 ParameterUpdate8=1
-ParameterName9=Supplier Part Number
+ParameterName9=Type
 ParameterUpdate9=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=UFQFPN28-4x4mm
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1721,12 +1726,21 @@ Net1=NetName=CC|NetColor=clBlack
 Net2=NetName=DP|NetColor=clBlack
 Net3=NetName=GND|NetColor=clBlack
 Net4=NetName=I2C|NetColor=clBlack
-Net5=NetName=LDO_3V3|NetColor=clBlack
-Net6=NetName=NetC16_2|NetColor=clBlack
-Net7=NetName=TX/RX/DP/DM|NetColor=clBlack
-Net8=NetName=USB|NetColor=clBlack
-Net9=NetName=USB 2.0/3.0|NetColor=$008E8145
-Net10=NetName=VBUS|NetColor=clBlack
+Net5=NetName=I2C_HUB.SCL|NetColor=clBlack
+Net6=NetName=I2C1.SCL|NetColor=clBlack
+Net7=NetName=I2C1.SCL_1|NetColor=clBlack
+Net8=NetName=I2C1.SCL_2|NetColor=clBlack
+Net9=NetName=LDO_3V3|NetColor=clBlack
+Net10=NetName=NetC16_2|NetColor=clBlack
+Net11=NetName=NetR18_1|NetColor=clBlack
+Net12=NetName=NetU1_1_27|NetColor=clBlack
+Net13=NetName=NetU1_2_27|NetColor=clBlack
+Net14=NetName=NetU1_27|NetColor=clBlack
+Net15=NetName=NetU1_3_27|NetColor=clBlack
+Net16=NetName=TX/RX/DP/DM|NetColor=clBlack
+Net17=NetName=USB|NetColor=clBlack
+Net18=NetName=USB 2.0/3.0|NetColor=$008E8145
+Net19=NetName=VBUS|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
