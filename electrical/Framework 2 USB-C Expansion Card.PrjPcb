@@ -447,17 +447,120 @@ UniqueId=11540c39-c20c-41b1-9f06-05934a3095d6
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=6
 Variation1=Designator=R9_3|UniqueId=\QFPHLWNG\IKVJNKQI\USYMLBLD|Kind=1|AlternatePart=
-ParamVariationCount=0
+Variation2=Designator=R10_1|UniqueId=\NNPGSNDZ\UJSADIIN\OKWMTSUK|Kind=2|AlternatePart=ERJ-2RKF1003X|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\Schlib1.SchLib|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=ERJ-2RKF1003X|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schlib1.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES0402|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=ERJ-2RKF1003X
+ParamDesignator1=R10_1
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=R10_1
+ParamVariation3=ParameterName=Description|VariantValue=100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film
+ParamDesignator3=R10_1
+ParamVariation4=ParameterName=Footprint|VariantValue=RES0402
+ParamDesignator4=R10_1
+ParamVariation5=ParameterName=Ibis Model|VariantValue=
+ParamDesignator5=R10_1
+ParamVariation6=ParameterName=Library Reference|VariantValue=ERJ-2RKF1003X
+ParamDesignator6=R10_1
+ParamVariation7=ParameterName=Manufacturer 1|VariantValue=Panasonic Electronic Components
+ParamDesignator7=R10_1
+ParamVariation8=ParameterName=Manufacturer Part Number 1|VariantValue=ERJ-2RKF1003X
+ParamDesignator8=R10_1
+ParamVariation9=ParameterName=PCB3D|VariantValue=
+ParamDesignator9=R10_1
+ParamVariation10=ParameterName=Pin Info|VariantValue=
+ParamDesignator10=R10_1
+ParamVariation11=ParameterName=Power Rating|VariantValue=1/10W
+ParamDesignator11=R10_1
+ParamVariation12=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator12=R10_1
+ParamVariation13=ParameterName=Simulation|VariantValue=
+ParamDesignator13=R10_1
+ParamVariation14=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator14=R10_1
+ParamVariation15=ParameterName=Supplier Part Number 1|VariantValue=P100KLCT-ND
+ParamDesignator15=R10_1
+ParamVariation16=ParameterName=Value|VariantValue=100kΩ
+ParamDesignator16=R10_1
+Variation3=Designator=R9_2|UniqueId=\BIOPXCWO\UJSADIIN\USYMLBLD|Kind=1|AlternatePart=
+Variation4=Designator=R9_1|UniqueId=\NNPGSNDZ\UJSADIIN\USYMLBLD|Kind=1|AlternatePart=
+Variation5=Designator=R11_2|UniqueId=\BIOPXCWO\UJSADIIN\LYPNLSFN|Kind=2|AlternatePart=RC0402FR-0710KL|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\Schlib1.SchLib|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0402FR-0710KL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schlib1.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES0402|AltLibLink_IsSameFootprint=True
+ParamVariation17=ParameterName=Comment|VariantValue=RC0402FR-0710KL
+ParamDesignator17=R11_2
+ParamVariation18=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator18=R11_2
+ParamVariation19=ParameterName=Description|VariantValue=10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+ParamDesignator19=R11_2
+ParamVariation20=ParameterName=Footprint|VariantValue=RES0402
+ParamDesignator20=R11_2
+ParamVariation21=ParameterName=Ibis Model|VariantValue=
+ParamDesignator21=R11_2
+ParamVariation22=ParameterName=Library Reference|VariantValue=RC0402FR-0710KL
+ParamDesignator22=R11_2
+ParamVariation23=ParameterName=Manufacturer 1|VariantValue=YAGEO
+ParamDesignator23=R11_2
+ParamVariation24=ParameterName=Manufacturer Part Number 1|VariantValue=RC0402FR-0710KL
+ParamDesignator24=R11_2
+ParamVariation25=ParameterName=PCB3D|VariantValue=
+ParamDesignator25=R11_2
+ParamVariation26=ParameterName=Pin Info|VariantValue=
+ParamDesignator26=R11_2
+ParamVariation27=ParameterName=Power Rating|VariantValue=1/16W
+ParamDesignator27=R11_2
+ParamVariation28=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator28=R11_2
+ParamVariation29=ParameterName=Simulation|VariantValue=
+ParamDesignator29=R11_2
+ParamVariation30=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator30=R11_2
+ParamVariation31=ParameterName=Supplier Part Number 1|VariantValue=311-10.0KLRCT-ND
+ParamDesignator31=R11_2
+ParamVariation32=ParameterName=Value|VariantValue=10kΩ
+ParamDesignator32=R11_2
+Variation6=Designator=R10_2|UniqueId=\BIOPXCWO\UJSADIIN\OKWMTSUK|Kind=2|AlternatePart=ERJ-2RKF1003X|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\Schlib1.SchLib|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=ERJ-2RKF1003X|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schlib1.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES0402|AltLibLink_IsSameFootprint=True
+ParamVariation33=ParameterName=Comment|VariantValue=ERJ-2RKF1003X
+ParamDesignator33=R10_2
+ParamVariation34=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator34=R10_2
+ParamVariation35=ParameterName=Description|VariantValue=100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film
+ParamDesignator35=R10_2
+ParamVariation36=ParameterName=Footprint|VariantValue=RES0402
+ParamDesignator36=R10_2
+ParamVariation37=ParameterName=Ibis Model|VariantValue=
+ParamDesignator37=R10_2
+ParamVariation38=ParameterName=Library Reference|VariantValue=ERJ-2RKF1003X
+ParamDesignator38=R10_2
+ParamVariation39=ParameterName=Manufacturer 1|VariantValue=Panasonic Electronic Components
+ParamDesignator39=R10_2
+ParamVariation40=ParameterName=Manufacturer Part Number 1|VariantValue=ERJ-2RKF1003X
+ParamDesignator40=R10_2
+ParamVariation41=ParameterName=PCB3D|VariantValue=
+ParamDesignator41=R10_2
+ParamVariation42=ParameterName=Pin Info|VariantValue=
+ParamDesignator42=R10_2
+ParamVariation43=ParameterName=Power Rating|VariantValue=1/10W
+ParamDesignator43=R10_2
+ParamVariation44=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator44=R10_2
+ParamVariation45=ParameterName=Simulation|VariantValue=
+ParamDesignator45=R10_2
+ParamVariation46=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator46=R10_2
+ParamVariation47=ParameterName=Supplier Part Number 1|VariantValue=P100KLCT-ND
+ParamDesignator47=R10_2
+ParamVariation48=ParameterName=Value|VariantValue=100kΩ
+ParamDesignator48=R10_2
+ParamVariationCount=48
 
 [ProjectVariant2]
 UniqueId=5cdc0571-5cb7-474b-a3f5-a113653ab853
 Description=Flash Disabled
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=3
 Variation1=Designator=R7_3|UniqueId=\QFPHLWNG\IKVJNKQI\FHNWZWIW|Kind=1|AlternatePart=
+Variation2=Designator=R7_2|UniqueId=\BIOPXCWO\UJSADIIN\FHNWZWIW|Kind=1|AlternatePart=
+Variation3=Designator=R7_1|UniqueId=\NNPGSNDZ\UJSADIIN\FHNWZWIW|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
