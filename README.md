@@ -4,4 +4,4 @@ A 2 USB-C expansion card for Framework laptops. Currently in design using the `T
 
 ## View the [current schematic](https://altrup.github.io/Framework-2-USB-C-Expansion-Card/Framework%202%20USB-C%20Expansion%20Card.pdf)
 
-[<img width="1999" height="1545" alt="image" src="https://github.com/user-attachments/assets/a548bafa-e094-442e-bdf0-1873166f0cec" />](https://altrup.github.io/Framework-2-USB-C-Expansion-Card/Framework%202%20USB-C%20Expansion%20Card.pdf)
+[<img width="1999" height="1545" alt="image" src="https://github.com/user-attachments/assets/8b3d125a-1f31-40ac-a233-8aaa73d4898b" />](https://altrup.github.io/Framework-2-USB-C-Expansion-Card/Framework%202%20USB-C%20Expansion%20Card.pdf)
