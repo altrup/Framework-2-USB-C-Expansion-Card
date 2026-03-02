@@ -345,9 +345,7 @@ UniqueId=11540c39-c20c-41b1-9f06-05934a3095d6
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
-Variation1=Designator=R14|UniqueId=\MBUAWCZN\MRHODUYO|Kind=1|AlternatePart=
-Variation2=Designator=R15|UniqueId=\MBUAWCZN\TVBBZNCN|Kind=1|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [ProjectVariant2]
