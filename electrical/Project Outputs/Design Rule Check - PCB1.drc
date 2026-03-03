@@ -1,11 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
 Date     : 3/3/2026
-Time     : 9:45:01 AM
+Time     : 10:09:08 AM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-   Violation between Clearance Constraint: (0.05mm < 0.15mm) Between Pad C3_1-1(45.75mm,55mm) on Bottom Layer And Pad C4_1-2(46.5mm,54.5mm) on Bottom Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -32,19 +31,10 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.09mm < 0.1mm) Between Pad R1_2-1(56.8mm,47.6mm) on Bottom Layer And Pad R5_2-2(57.6mm,48.3mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.09mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.15mm) Between Arc (42.75mm,54.05mm) on Bottom Overlay And Pad C5_1-1(42.5mm,53.5mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.15mm) Between Arc (42.75mm,54.05mm) on Bottom Overlay And Pad C5_1-2(42.5mm,54.5mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.016mm < 0.15mm) Between Arc (50.45mm,54.05mm) on Top Overlay And Pad U4_2-5(50.8mm,53.718mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.016mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.15mm) Between Arc (50.95mm,45.1mm) on Top Overlay And Pad C6_1-2(50.8mm,44.925mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.15mm) Between Arc (53.55mm,54.05mm) on Bottom Overlay And Pad C5_2-2(53.5mm,54.5mm) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.15mm) Between Arc (56.75mm,45.1mm) on Top Overlay And Pad C6_2-2(56.8mm,44.925mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.15mm) Between Pad C9_1-1(47.5mm,51.1mm) on Top Layer And Track (46.95mm,50.8mm)(46.95mm,52.8mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.15mm) Between Pad C9_1-2(47.5mm,52.1mm) on Top Layer And Track (46.95mm,50.8mm)(46.95mm,52.8mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
@@ -54,19 +44,16 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
    Violation between Net Antennae: Via (40.35mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,45.38mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (41.36mm,42.05mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (41.36mm,43.06mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (41.36mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (41.36mm,45.38mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (41.36mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (41.36mm,47.55mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (42.52mm,42.05mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (42.52mm,43.06mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (42.52mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (42.52mm,45.38mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (42.52mm,46.54mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (42.52mm,47.55mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (43.68mm,42.05mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (43.68mm,43.06mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (43.68mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (43.68mm,45.38mm) from Top Layer to Bottom Layer 
@@ -77,10 +64,7 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
    Violation between Net Antennae: Via (44.84mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (44.84mm,45.38mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (44.84mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (44.84mm,47.55mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (45.85mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (45.85mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (45.85mm,46.54mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (51.625mm,37.884mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (52mm,46.75mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (52mm,47.45mm) from Top Layer to Bottom Layer 
@@ -94,7 +78,7 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
    Violation between Net Antennae: Via (59mm,47.45mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (60.2mm,46.75mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (60.2mm,47.45mm) from Top Layer to Bottom Layer 
-Rule Violations :44
+Rule Violations :38
 
 Processing Rule : Matched Lengths(Delay Tolerance=8ps) (All)
 Rule Violations :0
@@ -103,6 +87,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 54
+Violations Detected : 38
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
