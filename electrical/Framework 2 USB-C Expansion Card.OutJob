@@ -2,9 +2,9 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\.PDF
+OutputFilePath2=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\.PDF
 ReleaseManaged2=0
-OutputBasePath2=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\
+OutputBasePath2=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -81,7 +81,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\.PDF
+RelativeOutputPath2=D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\.PDF
 OpenOutputs2=0
 RelativeOutputPath3=
 OpenOutputs3=1
