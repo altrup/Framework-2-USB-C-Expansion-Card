@@ -188,13 +188,13 @@ GenerateClassCluster=0
 DocumentUniqueId=QMAMQKOD
 
 [Document9]
-DocumentPath=Downstream_Port.SchDoc
+DocumentPath=Downstream_Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -202,9 +202,26 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VSTOJXUH
+DocumentUniqueId=WODFZYGF
 
 [Document10]
+DocumentPath=Downstream_Port.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SGBXGGGG
+
+[Document11]
 DocumentPath=Upstream_Port.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZRMIGUBQ
 
-[Document11]
+[Document12]
 DocumentPath=Framework 2 USB-C Expansion Card.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=Board_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IJWXCFVJ
 
-[Document13]
+[Document14]
 DocumentPath=USB_Hub.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YJCERAFD
 
-[Document14]
+[Document15]
 DocumentPath=USB_Hub.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=Framework 2 USB-C Expansion Card.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -306,7 +323,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document17]
 DocumentPath=Upstream_Port.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -323,8 +340,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document18]
 DocumentPath=Downstream_Port.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document19]
+DocumentPath=Downstream_Controller.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
