@@ -395,84 +395,84 @@ DocumentPath=Project Outputs\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_REV
-Value=A
+Name=CAGE_CODE
+Value=?????
 
 [Parameter2]
-Name=PCB_REV
-Value=A
-
-[Parameter3]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
-
-[Parameter4]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
-
-[Parameter5]
-Name=PCB_ENGINEER
-Value=- -----
-
-[Parameter6]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
-
-[Parameter7]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
-
-[Parameter8]
-Name=PCB_DESIGNER
-Value=- -----
-
-[Parameter9]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
-
-[Parameter10]
-Name=PCB_CHECKER
-Value=- -----
-
-[Parameter11]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
-
-[Parameter12]
-Name=PCB_ANG_TOL
-Value=+/-1/2
-
-[Parameter13]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
-
-[Parameter14]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
-
-[Parameter15]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
-
-[Parameter16]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
-
-[Parameter17]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
-
-[Parameter18]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
-
-[Parameter19]
 Name=CONTRACT_NUMBER
 Value=<CONTRACT NO>
 
+[Parameter3]
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
+
+[Parameter4]
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
+
+[Parameter5]
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
+
+[Parameter6]
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
+
+[Parameter7]
+Name=PCB_2_DEC_TOL
+Value=+/-.01
+
+[Parameter8]
+Name=PCB_3_DEC_TOL
+Value=+/-.010
+
+[Parameter9]
+Name=PCB_ANG_TOL
+Value=+/-1/2
+
+[Parameter10]
+Name=PCB_ASSEMBLY_NO
+Value=<PCB ASSY NO>
+
+[Parameter11]
+Name=PCB_CHECKER
+Value=- -----
+
+[Parameter12]
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
+
+[Parameter13]
+Name=PCB_DESIGNER
+Value=- -----
+
+[Parameter14]
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
+
+[Parameter15]
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
+
+[Parameter16]
+Name=PCB_ENGINEER
+Value=- -----
+
+[Parameter17]
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
+
+[Parameter18]
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
+
+[Parameter19]
+Name=PCB_REV
+Value=A
+
 [Parameter20]
-Name=CAGE_CODE
-Value=?????
+Name=SCH_REV
+Value=A
 
 [Configuration1]
 Name=Default Configuration
@@ -1606,8 +1606,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Schlib1.SchLib
-ComponentDesignItemID0=HD3SS3220IRNHT
-ComponentSymbolReference0=HD3SS3220IRNHT
+ComponentDesignItemID0=TUSB8044AIRGCR
+ComponentSymbolReference0=TUSB8044AIRGCR
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1627,26 +1627,26 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Datasheet
+ParameterName2=Copyright
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Datasheet
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Manufacturer
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=Manufacturer Product Number
+ParameterName6=Manufacturer_Name
 ParameterUpdate6=1
-ParameterName7=Operating Temperature
+ParameterName7=Manufacturer_Part_Number
 ParameterUpdate7=1
-ParameterName8=Supplier
+ParameterName8=RefDes
 ParameterUpdate8=1
-ParameterName9=Supplier Part Number
+ParameterName9=TYPE
 ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=30-WFQFN Exposed Pad
+ModelName0=RGC0064G
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
