@@ -1,13 +1,47 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
-Date     : 3/4/2026
-Time     : 9:58:07 AM
+Date     : 3/5/2026
+Time     : 11:45:20 AM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (0.25mm < 0.254mm) Between Pad R9_2-1(43.4mm,48.2mm) on Bottom Layer And Via (43.68mm,47.55mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.252mm < 0.254mm) Between Pad U7_2-4(44.625mm,48.325mm) on Bottom Layer And Via (44.84mm,47.55mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Pad U8_1-15(59.7mm,46.35mm) on Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Pad U8_1-16(59.3mm,46.75mm) on Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Pad U8_2-15(49.7mm,48.9mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Pad U8_2-16(50.1mm,49.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (0.085mm < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (49.223mm,48.902mm)(49.287mm,48.902mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.06mm < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (49.287mm,48.902mm)(49.312mm,48.877mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (49.312mm,48.877mm)(49.673mm,48.877mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (49.673mm,48.877mm)(49.673mm,48.894mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (49.673mm,48.894mm)(49.679mm,48.9mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (49.679mm,48.9mm)(49.7mm,48.9mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.108mm < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.023mm,49.733mm)(50.023mm,49.777mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.02mm < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.023mm,49.733mm)(50.109mm,49.647mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.106mm,49.327mm)(50.123mm,49.327mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.109mm,49.563mm)(50.109mm,49.647mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.109mm,49.563mm)(50.123mm,49.55mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.123mm,49.327mm)(50.123mm,49.55mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.1mm,49.321mm)(50.106mm,49.327mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.15mm) Between Region (0 hole(s)) Bottom Layer And Track (50.1mm,49.3mm)(50.1mm,49.321mm) on Bottom Layer 
+Rule Violations :20
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
+   Violation between Short-Circuit Constraint: Between Pad U8_1-15(59.7mm,46.35mm) on Top Layer And Region (0 hole(s)) Top Layer Location : [X = 59.7mm][Y = 46.35mm]
+   Violation between Short-Circuit Constraint: Between Pad U8_1-16(59.3mm,46.75mm) on Top Layer And Region (0 hole(s)) Top Layer Location : [X = 59.3mm][Y = 46.75mm]
+   Violation between Short-Circuit Constraint: Between Pad U8_2-15(49.7mm,48.9mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer Location : [X = 49.7mm][Y = 48.9mm]
+   Violation between Short-Circuit Constraint: Between Pad U8_2-16(50.1mm,49.3mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer Location : [X = 50.1mm][Y = 49.3mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (49.312mm,48.877mm)(49.673mm,48.877mm) on Bottom Layer Location : [X = 49.601mm][Y = 48.878mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (49.673mm,48.877mm)(49.673mm,48.894mm) on Bottom Layer Location : [X = 49.673mm][Y = 48.887mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (49.673mm,48.894mm)(49.679mm,48.9mm) on Bottom Layer Location : [X = 49.676mm][Y = 48.897mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (49.679mm,48.9mm)(49.7mm,48.9mm) on Bottom Layer Location : [X = 49.689mm][Y = 48.9mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (50.106mm,49.327mm)(50.123mm,49.327mm) on Bottom Layer Location : [X = 50.113mm][Y = 49.327mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (50.109mm,49.563mm)(50.109mm,49.647mm) on Bottom Layer Location : [X = 50.106mm][Y = 49.517mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (50.109mm,49.563mm)(50.123mm,49.55mm) on Bottom Layer Location : [X = 50.113mm][Y = 49.51mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (50.123mm,49.327mm)(50.123mm,49.55mm) on Bottom Layer Location : [X = 50.122mm][Y = 49.399mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (50.1mm,49.321mm)(50.106mm,49.327mm) on Bottom Layer Location : [X = 50.103mm][Y = 49.324mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Bottom Layer And Track (50.1mm,49.3mm)(50.1mm,49.321mm) on Bottom Layer Location : [X = 50.1mm][Y = 49.311mm]
+Rule Violations :14
 
 Processing Rule : Un-Routed Net Constraint ( (Disabled)(All) )
 Rule Violations :0
@@ -31,10 +65,14 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.077mm < 0.1mm) Between Pad U8_2-14(49.7mm,48.5mm) on Bottom Layer And Via (49.1mm,48.45mm) from Top Layer to Bottom Layer [Bottom Solder] Mask Sliver [0.077mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.08mm < 0.1mm) Between Region (0 hole(s)) Bottom Solder And Via (49.1mm,49mm) from Top Layer to Bottom Layer [Bottom Solder] Mask Sliver [0.08mm]
+Rule Violations :2
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
-Rule Violations :0
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.15mm) Between Pad C40_2-2(54.2mm,45.925mm) on Bottom Layer And Track (54.3mm,46.6mm)(54.3mm,46.95mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.15mm) Between Pad R9_2-2(43.4mm,49.2mm) on Bottom Layer And Track (43.95mm,48.8mm)(43.95mm,50.8mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
+Rule Violations :2
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
@@ -65,19 +103,20 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
    Violation between Net Antennae: Via (44.84mm,46.54mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (44.84mm,47.55mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (45.85mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (50.6mm,48.25mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (50.6mm,48.95mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (51.8mm,48.25mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (51.8mm,48.95mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (53mm,48.25mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (53mm,48.95mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (47.5mm,48.05mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (50.7mm,47.75mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (50.7mm,48.45mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (51.9mm,47.75mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (51.9mm,48.45mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (53.1mm,47.75mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (53.1mm,48.45mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (56.3mm,45.2mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (56.3mm,45.9mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (57.5mm,45.2mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (57.5mm,45.9mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (58.7mm,45.2mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (58.7mm,45.9mm) from Top Layer to Bottom Layer 
-Rule Violations :37
+Rule Violations :38
 
 Processing Rule : Matched Lengths(Delay Tolerance=8ps) (All)
 Rule Violations :0
@@ -86,6 +125,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 37
+Violations Detected : 76
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
