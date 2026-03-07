@@ -1,13 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
 Date     : 3/7/2026
-Time     : 11:59:22 AM
+Time     : 12:59:07 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad C13-2(59.8mm,60.7mm) on Bottom Layer And Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer 
-   Violation between Clearance Constraint: (0.122mm < 0.2mm) Between Pad C9-2(47.8mm,61.025mm) on Bottom Layer And Pad P2_2-0(48.99mm,61.9mm) on Multi-Layer 
-   Violation between Clearance Constraint: (0.179mm < 0.2mm) Between Pad P2_1-0(51.37mm,57.5mm) on Multi-Layer And Pad U1-3(52.05mm,58.7mm) on Bottom Layer 
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -34,23 +31,19 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.092mm < 0.1mm) Between Pad C10-1(51.9mm,62.5mm) on Bottom Layer And Pad P2_1-0(51.01mm,61.9mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.092mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.1mm) Between Pad C13-2(59.8mm,60.7mm) on Bottom Layer And Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.052mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.024mm < 0.1mm) Between Pad C9-2(47.8mm,61.025mm) on Bottom Layer And Pad P2_2-0(48.99mm,61.9mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.024mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.081mm < 0.1mm) Between Pad P2_1-0(51.37mm,57.5mm) on Multi-Layer And Pad U1-3(52.05mm,58.7mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.081mm]
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (0.095mm < 0.15mm) Between Pad C12-1(59.9mm,58.8mm) on Bottom Layer And Track (59.355mm,58.35mm)(59.355mm,59.35mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.115mm < 0.15mm) Between Pad P2_1-0(59.63mm,57.5mm) on Multi-Layer And Track (58.605mm,58.35mm)(59.355mm,58.35mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.115mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.115mm < 0.15mm) Between Pad P2_1-0(59.63mm,57.5mm) on Multi-Layer And Track (59.355mm,58.35mm)(59.355mm,59.35mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.115mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.137mm < 0.15mm) Between Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer And Track (59.355mm,62.25mm)(59.355mm,63.25mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.137mm]
-Rule Violations :4
+   Violation between Silk To Solder Mask Clearance Constraint: (0.139mm < 0.15mm) Between Pad P2_1-0(51.01mm,61.9mm) on Multi-Layer And Track (51.375mm,60.575mm)(51.375mm,61.075mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.139mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.139mm < 0.15mm) Between Pad P2_1-0(51.01mm,61.9mm) on Multi-Layer And Track (51.375mm,61.075mm)(51.5mm,61.075mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.139mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.143mm < 0.15mm) Between Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer And Track (59.355mm,62.305mm)(59.355mm,63.055mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.143mm]
+Rule Violations :3
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (39.9mm,47.6mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,43.06mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,45.38mm) from Top Layer to Bottom Layer 
@@ -88,14 +81,13 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
    Violation between Net Antennae: Via (51.9mm,48.45mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (52.625mm,37.15mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (52.875mm,38.65mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (53.1mm,47.75mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (53.1mm,48.45mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (56.3mm,45.2mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (56.3mm,45.9mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (57.5mm,45.2mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (57.5mm,45.9mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (58.7mm,45.2mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (58.7mm,45.9mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (56.5mm,45.25mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (56.5mm,45.95mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (57.7mm,45.25mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (57.7mm,45.95mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (58.9mm,45.25mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (58.9mm,45.95mm) from Top Layer to Bottom Layer 
 Rule Violations :45
 
 Processing Rule : Matched Lengths(Delay Tolerance=8ps) (All)
@@ -105,6 +97,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 56
+Violations Detected : 48
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
