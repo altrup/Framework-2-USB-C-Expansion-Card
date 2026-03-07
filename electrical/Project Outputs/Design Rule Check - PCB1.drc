@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
 Date     : 3/7/2026
-Time     : 12:59:07 PM
+Time     : 1:59:41 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 Rule Violations :0
@@ -34,10 +34,8 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (0.139mm < 0.15mm) Between Pad P2_1-0(51.01mm,61.9mm) on Multi-Layer And Track (51.375mm,60.575mm)(51.375mm,61.075mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.139mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.139mm < 0.15mm) Between Pad P2_1-0(51.01mm,61.9mm) on Multi-Layer And Track (51.375mm,61.075mm)(51.5mm,61.075mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.139mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.143mm < 0.15mm) Between Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer And Track (59.355mm,62.305mm)(59.355mm,63.055mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.143mm]
-Rule Violations :3
+   Violation between Silk To Solder Mask Clearance Constraint: (0.123mm < 0.15mm) Between Pad U1-1(54.12mm,60.05mm) on Bottom Layer And Track (53.95mm,59.65mm)(53.95mm,59.7mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.123mm]
+Rule Violations :1
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
@@ -97,6 +95,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 48
+Violations Detected : 46
 Waived Violations : 0
 Time Elapsed        : 00:00:00
