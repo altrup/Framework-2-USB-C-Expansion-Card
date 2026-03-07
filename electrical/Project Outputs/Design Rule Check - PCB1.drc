@@ -1,10 +1,13 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
-Date     : 3/5/2026
-Time     : 1:15:10 PM
+Date     : 3/7/2026
+Time     : 11:59:22 AM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad C13-2(59.8mm,60.7mm) on Bottom Layer And Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.122mm < 0.2mm) Between Pad C9-2(47.8mm,61.025mm) on Bottom Layer And Pad P2_2-0(48.99mm,61.9mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.179mm < 0.2mm) Between Pad P2_1-0(51.37mm,57.5mm) on Multi-Layer And Pad U1-3(52.05mm,58.7mm) on Bottom Layer 
+Rule Violations :3
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -31,12 +34,18 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.092mm < 0.1mm) Between Pad C10-1(51.9mm,62.5mm) on Bottom Layer And Pad P2_1-0(51.01mm,61.9mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.092mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.1mm) Between Pad C13-2(59.8mm,60.7mm) on Bottom Layer And Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.052mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.024mm < 0.1mm) Between Pad C9-2(47.8mm,61.025mm) on Bottom Layer And Pad P2_2-0(48.99mm,61.9mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.024mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.081mm < 0.1mm) Between Pad P2_1-0(51.37mm,57.5mm) on Multi-Layer And Pad U1-3(52.05mm,58.7mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.081mm]
+Rule Violations :4
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (0.108mm < 0.15mm) Between Pad P2_2-0(48.99mm,61.9mm) on Multi-Layer And Track (48.3mm,61.375mm)(48.425mm,61.375mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.108mm]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.108mm < 0.15mm) Between Pad P2_2-0(48.99mm,61.9mm) on Multi-Layer And Track (48.425mm,60.875mm)(48.425mm,61.375mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.108mm]
-Rule Violations :2
+   Violation between Silk To Solder Mask Clearance Constraint: (0.095mm < 0.15mm) Between Pad C12-1(59.9mm,58.8mm) on Bottom Layer And Track (59.355mm,58.35mm)(59.355mm,59.35mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.115mm < 0.15mm) Between Pad P2_1-0(59.63mm,57.5mm) on Multi-Layer And Track (58.605mm,58.35mm)(59.355mm,58.35mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.115mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.115mm < 0.15mm) Between Pad P2_1-0(59.63mm,57.5mm) on Multi-Layer And Track (59.355mm,58.35mm)(59.355mm,59.35mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.115mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.137mm < 0.15mm) Between Pad P2_1-0(59.99mm,61.9mm) on Multi-Layer And Track (59.355mm,62.25mm)(59.355mm,63.25mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.137mm]
+Rule Violations :4
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
@@ -96,6 +105,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 47
+Violations Detected : 56
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
