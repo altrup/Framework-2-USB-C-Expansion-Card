@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
 Date     : 3/7/2026
-Time     : 1:59:41 PM
+Time     : 4:25:07 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 Rule Violations :0
@@ -34,18 +34,18 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (0.123mm < 0.15mm) Between Pad U1-1(54.12mm,60.05mm) on Bottom Layer And Track (53.95mm,59.65mm)(53.95mm,59.7mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.123mm]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (39.9mm,47.6mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (39.5mm,38.5mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,43.06mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,45.38mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (40.35mm,46.54mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (40.3mm,48.5mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (41.36mm,43.06mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (41.36mm,44.22mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (41.36mm,45.38mm) from Top Layer to Bottom Layer 
@@ -86,7 +86,7 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
    Violation between Net Antennae: Via (57.7mm,45.95mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (58.9mm,45.25mm) from Top Layer to Bottom Layer 
    Violation between Net Antennae: Via (58.9mm,45.95mm) from Top Layer to Bottom Layer 
-Rule Violations :45
+Rule Violations :46
 
 Processing Rule : Matched Lengths(Delay Tolerance=8ps) (All)
 Rule Violations :0
