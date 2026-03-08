@@ -4,5 +4,5 @@ A 2 USB-C expansion card for Framework laptops. Currently in design using the `T
 
 ## View the [current schematic](https://altrup.github.io/Framework-2-USB-C-Expansion-Card/Framework%202%20USB-C%20Expansion%20Card.pdf)
 
-| ![PCB Top Isometric View](PCB1_Top_Iso.png) | ![PCB Bottom Isometric View](PCB1_Bottom_Iso.png) |
+| <img height="400" alt="PCB Top Isometric View" src="PCB1_Top_Iso.png" /> | <img height="400" alt="PCB Bottom Isometric View" src="PCB1_Bottom_Iso.png" /> |
 | ----- | ----- |
