@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
 Date     : 3/7/2026
-Time     : 11:50:20 PM
+Time     : 11:58:49 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 Rule Violations :0
@@ -10,13 +10,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U7_2-9(45.6mm,49.8mm) on Bottom Layer And Pad C18-1(45.8mm,50.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (44.84mm,42.05mm) from Top Layer to Bottom Layer And Pad C26-1(45.8mm,42.1mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (47.375mm,38.65mm) from Top Layer to Bottom Layer And Pad C5-1(47.6mm,37.9mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_2-A12(41.75mm,55.7mm) on Top Layer And Via (42.1mm,53.717mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R10_1-1(55.5mm,50mm) on Bottom Layer And Pad U7_1-9(57.8mm,49.3mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (45.6mm,47.3mm) from Top Layer to Bottom Layer And Pad U7_2-1(46.575mm,48.325mm) on Bottom Layer 
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -58,6 +52,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 6
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:01
