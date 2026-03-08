@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
 Date     : 3/7/2026
-Time     : 4:25:07 PM
+Time     : 7:02:59 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 Rule Violations :0
@@ -31,7 +31,9 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.077mm < 0.1mm) Between Pad FB1-1(51.2mm,43.35mm) on Bottom Layer And Pad R7-2(51mm,44.3mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.077mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.057mm < 0.1mm) Between Pad U3-4(47.5mm,42.55mm) on Top Layer And Via (48.13mm,42.614mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.057mm]
+Rule Violations :2
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
 Rule Violations :0
@@ -40,53 +42,27 @@ Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (39.5mm,38.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (40.35mm,43.06mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (40.35mm,44.22mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (40.35mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (40.35mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (40.3mm,48.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (41.36mm,43.06mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (41.36mm,44.22mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (41.36mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (41.36mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (42.52mm,42.05mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (42.52mm,43.06mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (42.52mm,44.22mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (42.52mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (42.52mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (43.68mm,43.06mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (43.68mm,44.22mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (43.68mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (43.68mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (43.68mm,47.55mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (44.84mm,42.05mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (44.84mm,43.06mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (44.84mm,44.22mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (44.84mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (44.84mm,46.54mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (44.84mm,47.55mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (45.85mm,45.38mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (47.125mm,37.15mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (47.375mm,38.65mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (48.625mm,37.15mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (48.875mm,38.65mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (50.7mm,47.75mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (50.7mm,48.45mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (51.125mm,37.15mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (51.375mm,38.65mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (51.9mm,47.75mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (51.9mm,48.45mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (52.625mm,37.15mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (52.875mm,38.65mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (53.1mm,48.45mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (56.5mm,45.25mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (56.5mm,45.95mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (57.7mm,45.25mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (57.7mm,45.95mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (58.9mm,45.25mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (58.9mm,45.95mm) from Top Layer to Bottom Layer 
-Rule Violations :46
+   Violation between Net Antennae: Via (38.6mm,38.5mm) from Top Layer to Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Arc (58.9mm,37.05mm) on Top Overlay And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B1(47.125mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B10(51.625mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B11(52.125mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B12(52.625mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B2(47.625mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B3(48.125mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B4(48.625mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B5(49.125mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B6(49.625mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B7(50.125mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B8(50.625mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B9(51.125mm,37.15mm) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Board Edge And Pad R8-1(38.6mm,38.5mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Board Edge And Pad R8-2(38.6mm,39.5mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Board Edge And Track (42.05mm,36.9mm)(43.55mm,36.9mm) on Bottom Overlay 
+Rule Violations :16
 
 Processing Rule : Matched Lengths(Delay Tolerance=8ps) (All)
 Rule Violations :0
@@ -95,6 +71,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 46
+Violations Detected : 19
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
