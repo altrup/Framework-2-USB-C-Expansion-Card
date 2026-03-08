@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Altrup\CAD\Altium\Framework-2-USB-C-Expansion-Card\electrical\PCB1.PcbDoc
 Date     : 3/7/2026
-Time     : 7:02:59 PM
+Time     : 7:20:42 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 Rule Violations :0
@@ -9,8 +9,30 @@ Rule Violations :0
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
-Processing Rule : Un-Routed Net Constraint ( (Disabled)(All) )
-Rule Violations :0
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U7_2-9(45.6mm,49.8mm) on Bottom Layer And Pad C18-1(45.8mm,50.1mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (40.35mm,43.06mm) from Top Layer to Bottom Layer And Pad C21-1(40.4mm,42.1mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C24-1(45.6mm,47.3mm) on Bottom Layer And Pad U7_2-1(46.575mm,48.325mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (44.84mm,42.05mm) from Top Layer to Bottom Layer And Pad C26-1(45.8mm,42.1mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (47.375mm,38.65mm) from Top Layer to Bottom Layer And Pad C5-1(47.6mm,37.9mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_2-A1(47.25mm,55.7mm) on Top Layer And Pad U4_2-3(48.2mm,53.518mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_2-B1(41.7mm,56.91mm) on Multi-Layer And Pad P2_2-A12(41.75mm,55.7mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_2-A12(41.75mm,55.7mm) on Top Layer And Pad U5_2-3(42.1mm,53.717mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R10_1-1(55.5mm,50mm) on Bottom Layer And Pad U7_1-9(57.8mm,49.3mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +3.3V Between Pad U2-1(58.9mm,37.97mm) on Top Layer And Via (59.7mm,37.9mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad U2-4(57.9mm,37.97mm) on Top Layer And Pad U2-3(57.9mm,38.63mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net +5V Between Via (57.15mm,37.9mm) from Top Layer to Bottom Layer And Pad U2-4(57.9mm,37.97mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U3-45(38.7mm,42.55mm) on Top Layer And Via (40.35mm,43.06mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +1.1V Between Via (46.8mm,43mm) from Top Layer to Bottom Layer And Pad U3-5(47.5mm,43.05mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net +3.3V Between Via (45.8mm,41.1mm) from Top Layer to Bottom Layer And Pad U3-63(46.351mm,40.4mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4_1-8(57.7mm,52.983mm) on Top Layer And Pad U4_1-3(57.7mm,53.817mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (55.5mm,52.883mm) from Top Layer to Bottom Layer And Pad U4_1-8(57.7mm,52.983mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4_2-8(48.2mm,52.683mm) on Top Layer And Pad U4_2-3(48.2mm,53.518mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5_1-8(53.2mm,52.983mm) on Top Layer And Pad U5_1-3(53.2mm,53.817mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5_1-8(53.2mm,52.983mm) on Top Layer And Via (55.5mm,52.883mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5_2-8(42.1mm,52.883mm) on Top Layer And Pad U5_2-3(42.1mm,53.717mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net ID_1 Between Pad U8_1-27(55.5mm,46mm) on Top Layer And Track (56.5mm,46.75mm)(56.928mm,47.178mm) on Bottom Layer 
+Rule Violations :22
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -31,9 +53,7 @@ Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (0.077mm < 0.1mm) Between Pad FB1-1(51.2mm,43.35mm) on Bottom Layer And Pad R7-2(51mm,44.3mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.077mm]
-   Violation between Minimum Solder Mask Sliver Constraint: (0.057mm < 0.1mm) Between Pad U3-4(47.5mm,42.55mm) on Top Layer And Via (48.13mm,42.614mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.057mm]
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
 Rule Violations :0
@@ -42,27 +62,10 @@ Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (38.6mm,38.5mm) from Top Layer to Bottom Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Arc (58.9mm,37.05mm) on Top Overlay And Board Edge 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B1(47.125mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B10(51.625mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B11(52.125mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B12(52.625mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B2(47.625mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B3(48.125mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B4(48.625mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B5(49.125mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B6(49.625mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B7(50.125mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B8(50.625mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.2mm < 0.254mm) Between Board Edge And Pad P2-B9(51.125mm,37.15mm) on Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Board Edge And Pad R8-1(38.6mm,38.5mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Board Edge And Pad R8-2(38.6mm,39.5mm) on Bottom Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.25mm < 0.254mm) Between Board Edge And Track (42.05mm,36.9mm)(43.55mm,36.9mm) on Bottom Overlay 
-Rule Violations :16
+Rule Violations :0
 
 Processing Rule : Matched Lengths(Delay Tolerance=8ps) (All)
 Rule Violations :0
@@ -71,6 +74,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 19
+Violations Detected : 22
 Waived Violations : 0
 Time Elapsed        : 00:00:01
